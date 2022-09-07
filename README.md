@@ -1,2 +1,2 @@
 # HTML-CSS-Projects
-Adnan Khan FrontEnd Masters HTML CSS WorksShop Project 1
+Adnan Khan FrontEnd Masters HTML CSS WorksShops
