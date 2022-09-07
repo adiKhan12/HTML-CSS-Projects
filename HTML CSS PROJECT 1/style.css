@@ -1,0 +1,97 @@
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    font-size: 30px;
+}
+
+.Row{
+    display: flex;
+    align-items: stretch;
+    border-bottom: 5px solid black;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.Col-1{
+    border: 1px solid black;
+    width: 25%;
+    padding: 5px;
+
+}
+.Col-2{
+    border: 1px solid black;
+    width: 50%;
+    padding: 5px;
+
+}
+.img{
+    width: 100%;
+    padding: 5px;
+}
+.Col-3{
+    border: 1px solid black;
+    width: 25%;
+    padding: 5px;
+
+}
+.Row2-Col-1{
+    border: 1px solid black;
+    width: 25%;
+    padding: 5px;
+
+}
+.Row2-Col-2{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 75%;
+}
+
+.col-2-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  .list1{
+    background-color: #ffeaa7;
+  }
+  .list2{
+    background-color: #a7e2ff;
+  }
+  .list3{
+    background-color: #ffa7da;
+  }
+  .list4{
+    background-color: #f13c0a;
+  }
+  .list5{
+    background-color: #13a733;
+  }
+  .list6{
+    background-color: #5e30e9;
+  }
+.linkstyle1{
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: #666;
+}
+.heading{
+    font-size: 30px;
+text-align: center;
+font-weight: normal;
+font-style: italic;
+}
+* {
+    box-sizing: border-box;
+  }

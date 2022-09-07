@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    background-color:azure;
+}
+
+/*           Navigation Bar styling               */
+.nav-bar{
+    display: flex;
+    border-bottom: 2px solid black;
+    align-items: stretch;
+    width: 100%;
+    padding: 3px;
+    background-color: wheat;
+}
+.nav-bar-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.nav-list{
+    display: flex;
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.nav-1{
+    background-color: rgb(62, 237, 149);
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.nav-2{
+    background-color: rgb(176, 221, 42);
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*              INTRO STYLING            */
+
+.blog-intro{
+    background-color:rgb(203, 240, 236);
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 2%;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+
+/*              Blog Posts Styling            */
+
+.blog-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    background-color: aquamarine;
+}
+
+.post-info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    background-color: blanchedalmond;
+    margin-bottom: 1%;
+    border-bottom: 2px solid black;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+}
+.author{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(166, 234, 64);
+    padding: 10px;
+}
+.date{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(234, 214, 64);
+    padding: 10px;
+}
+
+.blog-discription{
+    padding: 10px;
+    margin-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color:thistle;
+}
